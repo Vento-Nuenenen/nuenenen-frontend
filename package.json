@@ -24,7 +24,7 @@
     "editorjs-html": "^3.4.2",
     "moment": "^2.29.4",
     "nuxt": "3.0.0",
-    "pinia": "^2.0.22",
+    "pinia": "^2.0.28",
     "vue": "^3.2.33"
   },
   "devDependencies": {
