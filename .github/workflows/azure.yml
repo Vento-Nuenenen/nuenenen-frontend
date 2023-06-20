@@ -1,3 +1,4 @@
+# .github/workflows/azure.yml
 name: azure
 on:
   push:
@@ -6,7 +7,7 @@ on:
   pull_request:
     branches:
       - main
-      jobs:
+jobs:
   deploy:
     runs-on: ${{ matrix.os }}
     strategy:
