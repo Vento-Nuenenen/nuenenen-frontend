@@ -27,7 +27,7 @@
   "dependencies": {
     "@nuxtjs/strapi": "^1.9.3",
     "@pinia/nuxt": "^0.4.11",
-    "@vueuse/core": "^10.2.0",
+    "@vueuse/core": "^10.2.1",
     "cross-env": "^7.0.3",
     "editorjs-html": "^3.4.3",
     "express": "^4.18.2",
@@ -62,7 +62,7 @@
     "lint-staged": "^13.2.2",
     "postcss-html": "^1.5.0",
     "prettier": "^2.8.8",
-    "sass": "^1.63.4",
+    "sass": "^1.63.6",
     "sass-loader": "^13.3.2",
     "stylelint": "^15.8.0",
     "stylelint-config-prettier": "^9.0.5",
