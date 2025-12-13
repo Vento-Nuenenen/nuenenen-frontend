@@ -1,6 +1,8 @@
 <template>
   <NuxtLayout>
-    <SnowEffectComponent />
+    <ClientOnly>
+      <snow-effect></snow-effect>
+    </ClientOnly>
     <NuxtPage></NuxtPage>
   </NuxtLayout>
 </template>
@@ -11,6 +13,13 @@ useHead({
   htmlAttrs: {
     lang: "de",
   },
+  script: [
+    {
+      type: "module",
+      src: "https://unpkg.com/@le-pepe/snow-effect",
+      defer: true,
+    },
+  ],
 });
 useSeoMeta({
   title: "Pfadi Nünenen - Entdecke Abenteuer und Gemeinschaft",

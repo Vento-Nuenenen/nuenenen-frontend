@@ -24,7 +24,6 @@
     "*.**": "prettier --check --ignore-unknown"
   },
   "dependencies": {
-    "@le-pepe/nuxt-snow-effect": "^1.5.0",
     "@nuxt/content": "^2.13.4",
     "@nuxtjs/robots": "^5.1.0",
     "@nuxtjs/strapi": "^2.0.0",
