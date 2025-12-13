@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/content',
     'nuxt-gtag',
+    '@le-pepe/nuxt-snow-effect',
   ],
   runtimeConfig: {
     public: {
