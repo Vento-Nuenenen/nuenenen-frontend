@@ -3,12 +3,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   css: ['@/assets/css/main.scss'],
   modules: [
-    '@nuxtjs/strapi',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@nuxt/image',
     '@nuxtjs/google-fonts',
-    '@nuxt/content',
     'nuxt-gtag',
   ],
   runtimeConfig: {
