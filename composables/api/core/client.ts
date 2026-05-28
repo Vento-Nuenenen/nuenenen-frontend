@@ -19,8 +19,8 @@ export const fetchFromApi = async <T>(
     return await $fetch<T>(`${BASE_URL}/api/${endpoint}`, {
       ...fetchOptions,
       ...options,
-      retry: 2,
-      timeout: 10000,
+      retry: 0,
+      timeout: 7000,
       onRequestError({ error }) {
         console.error(`Request failed for ${endpoint}:`, error)
       },

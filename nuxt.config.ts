@@ -39,6 +39,7 @@ export default defineNuxtConfig({
     minify: true,
     routeRules: {
       '/**': {
+        swr: 300,
         headers: {
           'X-Content-Type-Options': 'nosniff',
           'X-Frame-Options': 'DENY',
